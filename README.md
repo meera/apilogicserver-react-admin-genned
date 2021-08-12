@@ -17,7 +17,11 @@ Observe the following screens
 
 ## Customer Show
 
+<figure><img src="https://github.com/valhuber/apilogicserver-react-admin-genned/raw/main/screen-shots/CustomerShow.png"></figure>
+
 ## Order Show
+
+<figure><img src="https://github.com/valhuber/apilogicserver-react-admin-genned/raw/main/screen-shots/OrderShow.png"></figure>
 
 
 # Installation
