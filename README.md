@@ -23,6 +23,19 @@ Observe the following screens
 
 <figure><img src="https://github.com/valhuber/apilogicserver-react-admin-genned/raw/main/screen-shots/OrderShow.png"></figure>
 
+# Generated system
+
+ApiLogicServer creates the ccomplete project below, including:
+* Models
+* API
+* Logic
+* UI
+
+The UI components includes a react-admin folder:
+
+<figure><img src="https://github.com/valhuber/apilogicserver-react-admin-genned/raw/main/screen-shots/created-project.png"></figure>
+
+
 
 # Installation
 
