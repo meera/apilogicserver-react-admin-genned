@@ -15,7 +15,7 @@ ApiLogicServer creates the ccomplete project below, including:
 * Logic
 * UI
 
-[here](##multi-page-multi-table-application).
+Sample pages are shown below.  The [generated project is here](#generated-project).
 
 # Multi-page, Multi-Table Application
 
