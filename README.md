@@ -1,4 +1,4 @@
-# Getting Started with React Admin Dashboard for ApiLogicServer
+# Getting Started with React Admin for ApiLogicServer
 
 React based Web Admin Dashboard for [APILogicServer](https://github.com/valhuber/ApiLogicServer). 
 
