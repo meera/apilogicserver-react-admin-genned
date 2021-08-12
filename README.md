@@ -9,7 +9,15 @@ You can run it locally as described below in [Installation](#Installation).
 
 # Multi-page, Multi-Table Application
 
-Observe the following screens:
+Observe the following screens
+
+## Customer List
+
+<figure><img src="https://github.com/valhuber/apilogicserver-react-admin-genned/raw/main/screen-shots/CustomerList.png"></figure>
+
+## Customer Show
+
+## Order Show
 
 
 # Installation
