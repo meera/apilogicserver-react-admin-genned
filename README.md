@@ -36,11 +36,11 @@ So, in a few seconds, you can create working projects that would otherwise requi
 
 This positions react-admin with strategic advantages over competitive frameworks:
 
-* Backend automation, with unique transaction logic
+* **Backend automation,** with unique transaction logic
 
   > Backend transaction logic is signicant - often nearly _half_ the effort for such systems.  Reducing code by 40X can have a _dramatic_ effect on delivery and iteration.
 
-* Zero learning curve
+* **Zero learning curve**
 
   > A sophisticated multi-page, multi-table app (not Hello World!) is running in moments, with zero learning curve.  Customize the app, by editing working software.
 
