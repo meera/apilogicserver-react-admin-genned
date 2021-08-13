@@ -86,7 +86,13 @@ API Logic Server react-admin creation services are not yet suitable for use.  Th
 
 ## Key Issue - Joins
 
-As shown on the [Order Show](#order-show), joins are not yet operaational.  We are seeking collaboration on making this work, presumably using 
+As shown on the [Order Show](#order-show), joins are not yet operaational.  Support appears to be available in 
+the [react-admin enterprise edition](https://marmelab.com/ra-enterprise/modules/ra-relationships), but has not been tried.
+
+Is joins support required from ra-json-api-client?
+
+We are seeking collaborators.
+
 
 # Installation
 
