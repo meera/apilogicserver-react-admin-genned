@@ -11,7 +11,7 @@ You can run it locally as described below in [Installation](#Installation).
 
 ApiLogicServer creates the ccomplete project below, including:
 * Models
-* API
+* [**API:** a JSON_API](https://github.com/valhuber/ApiLogicServer#api-safrs-jsonapi-and-swagger), used by the react-admin app
 * Logic
 * UI
 
