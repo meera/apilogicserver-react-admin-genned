@@ -9,6 +9,8 @@ You can run it locally as described below in [Installation](#Installation).
 
 # Background
 
+## What: working software, *now*
+
 API Logic Server introspects your database and creates customizable project from a single command:
 
 ```
@@ -23,6 +25,13 @@ ApiLogicServer creates the [complete project below]((#generated-project)) from y
 * [**Logic:**](https://github.com/valhuber/ApiLogicServer#logic) declare transactional logic using spreadsheet-like rules (multi-table derivations and constraints)
   * 40x more concise than code, extensible with standard python
 * [**UI:**](#multi-page-multi-table-application) multi-page, multi-table react-admin apps as shown below
+
+## Why: agile collaboration / iteration, business agility
+
+So, in a few seconds, you can create working projects that would otherwise require weeks or months, and then customize them.
+
+* **Agile:** working sofware *now* enables you to collaborate with business users over working screens, as a basis for iterations
+* **Business Agility:** this declarative approach provides remarkable competitive advantage in time to market, and responding to business change.
 
 
 # Multi-page, Multi-Table Application
