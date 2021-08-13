@@ -1,4 +1,4 @@
-# Getting Started with React Admin for ApiLogicServer
+# ApiLogicServer - Automated React Admin Creation
 
 This is the source code for a [React Admin](https://marmelab.com/react-admin/) app, created automatically by [APILogicServer](https://github.com/valhuber/ApiLogicServer). 
 
