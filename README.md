@@ -64,19 +64,19 @@ Show screens show all the attributes of an object, with a tab sheet showing a li
 
 Clicking a child row opens up _its_ show page, enabling you to walk the database relationships.
 
-<figure><img src="https://github.com/valhuber/apilogicserver-react-admin-genned/raw/main/screen-shots/CustomerShow.png"></figure>
+<figure><img src="https://github.com/meera/apilogicserver-react-admin-genned/raw/main/screen-shots/CustomerShow.png"></figure>
 
 ## Order Show
 
 Observe the automatic joins, so you can see the Product Name instead of the Product Id (not currently working).
 
-<figure><img src="https://github.com/valhuber/apilogicserver-react-admin-genned/raw/main/screen-shots/OrderShow.png"></figure>
+<figure><img src="https://github.com/meera/apilogicserver-react-admin-genned/raw/main/screen-shots/OrderShow.png"></figure>
 
 # Generated Project
 
 The UI components includes a react-admin folder:
 
-<figure><img src="https://github.com/valhuber/apilogicserver-react-admin-genned/raw/main/screen-shots/created-project.png"></figure>
+<figure><img src="https://github.com/meera/apilogicserver-react-admin-genned/raw/main/screen-shots/created-project.png"></figure>
 
 ## Customizable - Backend and Frontend
 
