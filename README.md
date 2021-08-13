@@ -20,7 +20,7 @@ ApiLogicServer creates the complete project below from your data model, includin
 * [**API:**](https://github.com/valhuber/ApiLogicServer#api-safrs-jsonapi-and-swagger) a JSON:API, used by the react-admin app
 * [**Logic:**](https://github.com/valhuber/ApiLogicServer#logic) spreadsheet-like transactional logic
   * 40x more concise than code, extensible with standard python
-* [**UI:**]() multi-page, multi-table react-admin apps as shown below
+* [**UI:**](#multi-page-multi-table-application) multi-page, multi-table react-admin apps as shown below
 
 Sample pages are shown below.  The [generated project is here](#generated-project).
 
