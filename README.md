@@ -11,7 +11,7 @@ You can run it locally as described below in [Installation](#Installation).
 
 ## What: working software, *now*
 
-API Logic Server introspects your database and creates customizable project from a single command:
+API Logic Server introspects your database, and creates an executable, customizable project from a single command:
 
 ```
 ApiLogicServer run  # defaults to pre-installed sample database
