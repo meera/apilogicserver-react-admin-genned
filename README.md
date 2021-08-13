@@ -47,7 +47,7 @@ This positions react-admin with strategic advantages over competitive frameworks
 
 # Multi-page, Multi-Table Application
 
-Observe the following screens created from the [sample database](https://github.com/valhuber/ApiLogicServer/wiki/Sample-Database):
+Observe the following screens created from the [sample database](https://github.com/valhuber/ApiLogicServer/wiki/Sample-Database), in the subsections below.
 
 ## Customer List
 
