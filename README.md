@@ -31,6 +31,7 @@ ApiLogicServer creates the [complete project below]((#generated-project)) from y
 So, in a few seconds, you can create working projects that would otherwise require weeks or months, and then customize them.
 
 * **Agile:** working sofware *now* enables you to collaborate with business users over working screens, as a basis for iterations
+
 * **Business Agility:** this declarative approach provides remarkable competitive advantage in time to market, and responding to business change.
 
 
