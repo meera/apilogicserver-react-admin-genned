@@ -40,7 +40,9 @@ This positions react-admin with strategic advantages over competitive frameworks
 
   > Backend transaction logic is signicant - often nearly _half_ the effort for such systems.  Reducing code by 40X can have a _dramatic_ effect on delivery and iteration.
 
-* Zero learning curve - a sophisticated app is running in moments, with zero learning curve.  Customize the app, by editing working software.
+* Zero learning curve
+
+  > A sophisticated multi-page, multi-table app (not Hello World!) is running in moments, with zero learning curve.  Customize the app, by editing working software.
 
 
 # Multi-page, Multi-Table Application
