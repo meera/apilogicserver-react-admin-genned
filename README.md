@@ -24,7 +24,7 @@ ApiLogicServer creates the complete project below from your data model, includin
   * 40x more concise than code, extensible with standard python
 * [**UI:**](#multi-page-multi-table-application) multi-page, multi-table react-admin apps as shown below
 
-Sample pages are shown below.  The [generated project is here](#generated-project).
+The [generated project is here](#generated-project).
 
 # Multi-page, Multi-Table Application
 
