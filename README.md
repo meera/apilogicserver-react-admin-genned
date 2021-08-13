@@ -20,7 +20,7 @@ ApiLogicServer creates the complete project below from your data model, includin
   * You can customize the model, e.g., [denormalizations](https://github.com/valhuber/LogicBank/wiki/Denormalization), [hybrid (virtual) attributes](https://github.com/valhuber/LogicBank/wiki/Denormalization), and [supply missing relationships](https://github.com/valhuber/LogicBank/wiki/Managing-Rules#relationships-db-or-virtual).
   
 * [**API:**](https://github.com/valhuber/ApiLogicServer#api-safrs-jsonapi-and-swagger) a JSON:API, used by the react-admin app
-* [**Logic:**](https://github.com/valhuber/ApiLogicServer#logic) spreadsheet-like transactional logic
+* [**Logic:**](https://github.com/valhuber/ApiLogicServer#logic) declare transactional logic using spreadsheet-like rules (multi-table derivations and constraints)
   * 40x more concise than code, extensible with standard python
 * [**UI:**](#multi-page-multi-table-application) multi-page, multi-table react-admin apps as shown below
 
