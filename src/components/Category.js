@@ -46,7 +46,6 @@ export const CategoryList = props => (
 export const CategoryEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_edit_columns
             <TextInput source="CategoryName"/>
             <TextInput source="Description"/>
             <TextInput source="Id"/>
@@ -58,7 +57,6 @@ export const CategoryEdit = props => (
 export const CategoryAdd = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_add_columns
             <TextField source="CategoryName"/>
             <TextField source="Description"/>
             <TextField source="Id"/>

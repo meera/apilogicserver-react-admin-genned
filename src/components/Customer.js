@@ -49,7 +49,6 @@ export const CustomerList = props => (
 export const CustomerEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_edit_columns
             <TextInput source="CompanyName"/>
             <TextInput source="ContactName"/>
             <TextInput source="ContactTitle"/>
@@ -63,8 +62,8 @@ export const CustomerEdit = props => (
             <TextInput source="Balance"/>
             <TextInput source="CreditLimit"/>
             <TextInput source="OrderCount"/>
-            <TextInput source="Id"/>
             <TextInput source="UnpaidOrderCount"/>
+            <TextInput source="Id"/>
         </SimpleForm>
     </Edit>
 );
@@ -73,7 +72,6 @@ export const CustomerEdit = props => (
 export const CustomerAdd = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_add_columns
             <TextField source="CompanyName"/>
             <TextField source="ContactName"/>
             <TextField source="ContactTitle"/>
@@ -87,8 +85,8 @@ export const CustomerAdd = props => (
             <TextField source="Balance"/>
             <TextField source="CreditLimit"/>
             <TextField source="OrderCount"/>
-            <TextField source="Id"/>
             <TextField source="UnpaidOrderCount"/>
+            <TextField source="Id"/>
         </SimpleForm>
     </Edit>
 );
@@ -137,8 +135,8 @@ export const CustomerShow = props => {
                 <ShowField source="Balance"/>
                 <ShowField source="CreditLimit"/>
                 <ShowField source="OrderCount"/>
-                <ShowField source="Id"/>
                 <ShowField source="UnpaidOrderCount"/>
+                <ShowField source="Id"/>
             </Grid>
 <hr style={{ margin: "30px 0px 30px" }}/>
 	<TabbedShowLayout>
@@ -155,8 +153,8 @@ export const CustomerShow = props => {
 <ReferenceManyField reference = "Order"target = "CustomerId"addLabel = {false}>
 <Datagrid rowClick="show">
             <TextField source="ShipName"/>
-            <TextField source="Customer.CompanyName"/>
             <TextField source="Employee.LastName"/>
+            <TextField source="Customer.CompanyName"/>
             <TextField source="OrderDate"/>
             <TextField source="RequiredDate"/>
 <EditButton />

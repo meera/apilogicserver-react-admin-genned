@@ -46,7 +46,6 @@ export const CustomerCustomerDemoList = props => (
 export const CustomerCustomerDemoEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_edit_columns
             <TextInput source="Id"/>
             <TextInput source="CustomerTypeId"/>
         </SimpleForm>
@@ -57,7 +56,6 @@ export const CustomerCustomerDemoEdit = props => (
 export const CustomerCustomerDemoAdd = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_add_columns
             <TextField source="Id"/>
             <TextField source="CustomerTypeId"/>
         </SimpleForm>

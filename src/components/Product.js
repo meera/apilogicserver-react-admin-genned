@@ -49,7 +49,6 @@ export const ProductList = props => (
 export const ProductEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_edit_columns
             <TextInput source="ProductName"/>
             <TextInput source="QuantityPerUnit"/>
             <TextInput source="UnitPrice"/>
@@ -58,9 +57,9 @@ export const ProductEdit = props => (
             <TextInput source="ReorderLevel"/>
             <TextInput source="Discontinued"/>
             <TextInput source="UnitsShipped"/>
-            <TextInput source="Id"/>
-            <TextInput source="SupplierId"/>
             <TextInput source="CategoryId"/>
+            <TextInput source="SupplierId"/>
+            <TextInput source="Id"/>
         </SimpleForm>
     </Edit>
 );
@@ -69,7 +68,6 @@ export const ProductEdit = props => (
 export const ProductAdd = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_add_columns
             <TextField source="ProductName"/>
             <TextField source="QuantityPerUnit"/>
             <TextField source="UnitPrice"/>
@@ -78,9 +76,9 @@ export const ProductAdd = props => (
             <TextField source="ReorderLevel"/>
             <TextField source="Discontinued"/>
             <TextField source="UnitsShipped"/>
-            <TextField source="Id"/>
-            <TextField source="SupplierId"/>
             <TextField source="CategoryId"/>
+            <TextField source="SupplierId"/>
+            <TextField source="Id"/>
         </SimpleForm>
     </Edit>
 );
@@ -124,9 +122,9 @@ export const ProductShow = props => {
                 <ShowField source="ReorderLevel"/>
                 <ShowField source="Discontinued"/>
                 <ShowField source="UnitsShipped"/>
-                <ShowField source="Id"/>
-                <ShowField source="SupplierId"/>
                 <ShowField source="CategoryId"/>
+                <ShowField source="SupplierId"/>
+                <ShowField source="Id"/>
             </Grid>
 <hr style={{ margin: "30px 0px 30px" }}/>
 	<TabbedShowLayout>
@@ -134,8 +132,8 @@ export const ProductShow = props => {
 <ReferenceManyField reference = "OrderDetail"target = "ProductId"addLabel = {false}>
 <Datagrid rowClick="show">
             <TextField source="Id"/>
-            <TextField source="Product.ProductName"/>
             <TextField source="Order.ShipName"/>
+            <TextField source="Product.ProductName"/>
             <TextField source="UnitPrice"/>
             <TextField source="Quantity"/>
 <EditButton />

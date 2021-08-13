@@ -49,14 +49,13 @@ export const EmployeeAuditList = props => (
 export const EmployeeAuditEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_edit_columns
             <TextInput source="LastName"/>
             <TextInput source="Title"/>
             <TextInput source="Salary"/>
             <TextInput source="FirstName"/>
             <TextInput source="CreatedOn"/>
-            <TextInput source="Id"/>
             <TextInput source="EmployeeId"/>
+            <TextInput source="Id"/>
         </SimpleForm>
     </Edit>
 );
@@ -65,14 +64,13 @@ export const EmployeeAuditEdit = props => (
 export const EmployeeAuditAdd = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_add_columns
             <TextField source="LastName"/>
             <TextField source="Title"/>
             <TextField source="Salary"/>
             <TextField source="FirstName"/>
             <TextField source="CreatedOn"/>
-            <TextField source="Id"/>
             <TextField source="EmployeeId"/>
+            <TextField source="Id"/>
         </SimpleForm>
     </Edit>
 );
@@ -114,8 +112,8 @@ export const EmployeeAuditShow = props => {
                 <ShowField source="Salary"/>
                 <ShowField source="FirstName"/>
                 <ShowField source="CreatedOn"/>
-                <ShowField source="Id"/>
                 <ShowField source="EmployeeId"/>
+                <ShowField source="Id"/>
             </Grid>
         </SimpleShowLayout>
     </Show>

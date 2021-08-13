@@ -49,7 +49,6 @@ export const EmployeeList = props => (
 export const EmployeeEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_edit_columns
             <TextInput source="LastName"/>
             <TextInput source="FirstName"/>
             <TextInput source="Title"/>
@@ -78,7 +77,6 @@ export const EmployeeEdit = props => (
 export const EmployeeAdd = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_add_columns
             <TextField source="LastName"/>
             <TextField source="FirstName"/>
             <TextField source="Title"/>
@@ -183,8 +181,8 @@ export const EmployeeShow = props => {
 <ReferenceManyField reference = "Order"target = "EmployeeId"addLabel = {false}>
 <Datagrid rowClick="show">
             <TextField source="ShipName"/>
-            <TextField source="Customer.CompanyName"/>
             <TextField source="Employee.LastName"/>
+            <TextField source="Customer.CompanyName"/>
             <TextField source="OrderDate"/>
             <TextField source="RequiredDate"/>
 <EditButton />

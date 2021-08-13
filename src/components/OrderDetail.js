@@ -36,8 +36,8 @@ export const OrderDetailList = props => (
         <Datagrid rowClick="show">
             // ApiLogicServer_list_columns
             <TextField source="Id"/>
-            <TextField source="Product.ProductName"/>
             <TextField source="Order.ShipName"/>
+            <TextField source="Product.ProductName"/>
             <TextField source="UnitPrice"/>
             <TextField source="Quantity"/>
             <EditButton />
@@ -49,7 +49,6 @@ export const OrderDetailList = props => (
 export const OrderDetailEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_edit_columns
             <TextInput source="Id"/>
             <TextInput source="UnitPrice"/>
             <TextInput source="Quantity"/>
@@ -66,7 +65,6 @@ export const OrderDetailEdit = props => (
 export const OrderDetailAdd = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_add_columns
             <TextField source="Id"/>
             <TextField source="UnitPrice"/>
             <TextField source="Quantity"/>
@@ -111,8 +109,8 @@ export const OrderDetailShow = props => {
             </Typography>
             <Grid container spacing={3} margin={5} m={40}>
                 <ShowField source="Id"/>
-                <ShowField source="Product.ProductName"/>
                 <ShowField source="Order.ShipName"/>
+                <ShowField source="Product.ProductName"/>
                 <ShowField source="UnitPrice"/>
                 <ShowField source="Quantity"/>
                 <ShowField source="Discount"/>

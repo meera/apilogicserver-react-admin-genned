@@ -45,7 +45,6 @@ export const RegionList = props => (
 export const RegionEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_edit_columns
             <TextInput source="RegionDescription"/>
             <TextInput source="Id"/>
         </SimpleForm>
@@ -56,7 +55,6 @@ export const RegionEdit = props => (
 export const RegionAdd = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_add_columns
             <TextField source="RegionDescription"/>
             <TextField source="Id"/>
         </SimpleForm>

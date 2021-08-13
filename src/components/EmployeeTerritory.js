@@ -47,10 +47,9 @@ export const EmployeeTerritoryList = props => (
 export const EmployeeTerritoryEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_edit_columns
             <TextInput source="Id"/>
-            <TextInput source="TerritoryId"/>
             <TextInput source="EmployeeId"/>
+            <TextInput source="TerritoryId"/>
         </SimpleForm>
     </Edit>
 );
@@ -59,10 +58,9 @@ export const EmployeeTerritoryEdit = props => (
 export const EmployeeTerritoryAdd = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_add_columns
             <TextField source="Id"/>
-            <TextField source="TerritoryId"/>
             <TextField source="EmployeeId"/>
+            <TextField source="TerritoryId"/>
         </SimpleForm>
     </Edit>
 );
@@ -101,8 +99,8 @@ export const EmployeeTerritoryShow = props => {
                 <ShowField source="Id"/>
                 <ShowField source="Employee.LastName"/>
                 <ShowField source="Territory.TerritoryDescription"/>
-                <ShowField source="TerritoryId"/>
                 <ShowField source="EmployeeId"/>
+                <ShowField source="TerritoryId"/>
             </Grid>
         </SimpleShowLayout>
     </Show>

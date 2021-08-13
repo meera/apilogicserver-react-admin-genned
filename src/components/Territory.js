@@ -45,10 +45,9 @@ export const TerritoryList = props => (
 export const TerritoryEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_edit_columns
             <TextInput source="TerritoryDescription"/>
-            <TextInput source="Id"/>
             <TextInput source="RegionId"/>
+            <TextInput source="Id"/>
         </SimpleForm>
     </Edit>
 );
@@ -57,10 +56,9 @@ export const TerritoryEdit = props => (
 export const TerritoryAdd = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_add_columns
             <TextField source="TerritoryDescription"/>
-            <TextField source="Id"/>
             <TextField source="RegionId"/>
+            <TextField source="Id"/>
         </SimpleForm>
     </Edit>
 );
@@ -97,8 +95,8 @@ export const TerritoryShow = props => {
             </Typography>
             <Grid container spacing={3} margin={5} m={40}>
                 <ShowField source="TerritoryDescription"/>
-                <ShowField source="Id"/>
                 <ShowField source="RegionId"/>
+                <ShowField source="Id"/>
             </Grid>
 <hr style={{ margin: "30px 0px 30px" }}/>
 	<TabbedShowLayout>

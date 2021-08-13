@@ -36,8 +36,8 @@ export const OrderList = props => (
         <Datagrid rowClick="show">
             // ApiLogicServer_list_columns
             <TextField source="ShipName"/>
-            <TextField source="Customer.CompanyName"/>
             <TextField source="Employee.LastName"/>
+            <TextField source="Customer.CompanyName"/>
             <TextField source="OrderDate"/>
             <TextField source="RequiredDate"/>
             <EditButton />
@@ -49,7 +49,6 @@ export const OrderList = props => (
 export const OrderEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_edit_columns
             <TextInput source="ShipName"/>
             <TextInput source="OrderDate"/>
             <TextInput source="RequiredDate"/>
@@ -62,9 +61,9 @@ export const OrderEdit = props => (
             <TextInput source="ShipPostalCode"/>
             <TextInput source="ShipCountry"/>
             <TextInput source="AmountTotal"/>
-            <TextInput source="Id"/>
-            <TextInput source="CustomerId"/>
             <TextInput source="EmployeeId"/>
+            <TextInput source="CustomerId"/>
+            <TextInput source="Id"/>
         </SimpleForm>
     </Edit>
 );
@@ -73,7 +72,6 @@ export const OrderEdit = props => (
 export const OrderAdd = props => (
     <Edit {...props}>
         <SimpleForm>
-            // ApiLogicServer_add_columns
             <TextField source="ShipName"/>
             <TextField source="OrderDate"/>
             <TextField source="RequiredDate"/>
@@ -86,9 +84,9 @@ export const OrderAdd = props => (
             <TextField source="ShipPostalCode"/>
             <TextField source="ShipCountry"/>
             <TextField source="AmountTotal"/>
-            <TextField source="Id"/>
-            <TextField source="CustomerId"/>
             <TextField source="EmployeeId"/>
+            <TextField source="CustomerId"/>
+            <TextField source="Id"/>
         </SimpleForm>
     </Edit>
 );
@@ -125,8 +123,8 @@ export const OrderShow = props => {
             </Typography>
             <Grid container spacing={3} margin={5} m={40}>
                 <ShowField source="ShipName"/>
-                <ShowField source="Customer.CompanyName"/>
                 <ShowField source="Employee.LastName"/>
+                <ShowField source="Customer.CompanyName"/>
                 <ShowField source="OrderDate"/>
                 <ShowField source="RequiredDate"/>
                 <ShowField source="ShippedDate"/>
@@ -138,9 +136,9 @@ export const OrderShow = props => {
                 <ShowField source="ShipPostalCode"/>
                 <ShowField source="ShipCountry"/>
                 <ShowField source="AmountTotal"/>
-                <ShowField source="Id"/>
-                <ShowField source="CustomerId"/>
                 <ShowField source="EmployeeId"/>
+                <ShowField source="CustomerId"/>
+                <ShowField source="Id"/>
             </Grid>
 <hr style={{ margin: "30px 0px 30px" }}/>
 	<TabbedShowLayout>
@@ -148,8 +146,8 @@ export const OrderShow = props => {
 <ReferenceManyField reference = "OrderDetail"target = "OrderId"addLabel = {false}>
 <Datagrid rowClick="show">
             <TextField source="Id"/>
-            <TextField source="Product.ProductName"/>
             <TextField source="Order.ShipName"/>
+            <TextField source="Product.ProductName"/>
             <TextField source="UnitPrice"/>
             <TextField source="Quantity"/>
 <EditButton />
