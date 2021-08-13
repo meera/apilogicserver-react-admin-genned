@@ -57,9 +57,11 @@ The UI components includes a react-admin folder:
 
 <figure><img src="https://github.com/valhuber/apilogicserver-react-admin-genned/raw/main/screen-shots/created-project.png"></figure>
 
-## Customizable
+## Customizable - Backend and Frontend
 
-The created react-admin project preserves the [customize without ejecting](https://marmelab.com/blog/2021/07/22/cra-webpack-no-eject.html) approach of react-admin.
+API Logic server backends are [customizable as described here](https://github.com/valhuber/ApiLogicServer#customize-the-created-project).
+
+Likewise, the created react-admin project preserves the [customize without ejecting](https://marmelab.com/blog/2021/07/22/cra-webpack-no-eject.html) approach of react-admin.
 
 
 
