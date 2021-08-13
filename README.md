@@ -17,7 +17,7 @@ API Logic Server introspects your database, and creates an executable, customiza
 ApiLogicServer run  # defaults to pre-installed sample database
 ```
 
-ApiLogicServer creates the [complete project below]((#generated-project)) from your data model, including:
+ApiLogicServer creates the [complete project below](#generated-project) from your data model, including:
 * **Models:** SQLAlchemy requires model classes; these are created automatically from the database
   * You can customize the model, e.g., [denormalizations](https://github.com/valhuber/LogicBank/wiki/Denormalization), [hybrid (virtual) attributes](https://github.com/valhuber/LogicBank/wiki/Denormalization), and [supply missing relationships](https://github.com/valhuber/LogicBank/wiki/Managing-Rules#relationships-db-or-virtual).
   
