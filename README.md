@@ -16,7 +16,9 @@ ApiLogicServer run  # defaults to pre-installed sample database
 ```
 
 ApiLogicServer creates the complete project below from your data model, including:
-* Models
+* **Models:** SQLAlchemy requires model classes; these are created automatically from the database
+  * You can customize the model, e.g., [denormalizations](https://github.com/valhuber/LogicBank/wiki/Denormalization), [hybrid (virtual] attributes](https://github.com/valhuber/LogicBank/wiki/Denormalization), and [supply missing relationships](https://github.com/valhuber/LogicBank/wiki/Managing-Rules#relationships-db-or-virtual).
+  
 * [**API:**](https://github.com/valhuber/ApiLogicServer#api-safrs-jsonapi-and-swagger) a JSON:API, used by the react-admin app
 * [**Logic:**](https://github.com/valhuber/ApiLogicServer#logic) spreadsheet-like transactional logic
   * 40x more concise than code, extensible with standard python
