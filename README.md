@@ -21,7 +21,7 @@ ApiLogicServer creates the [complete project below]((#generated-project)) from y
 * **Models:** SQLAlchemy requires model classes; these are created automatically from the database
   * You can customize the model, e.g., [denormalizations](https://github.com/valhuber/LogicBank/wiki/Denormalization), [hybrid (virtual) attributes](https://github.com/valhuber/LogicBank/wiki/Denormalization), and [supply missing relationships](https://github.com/valhuber/LogicBank/wiki/Managing-Rules#relationships-db-or-virtual).
   
-* [**API:**](https://github.com/valhuber/ApiLogicServer#api-safrs-jsonapi-and-swagger) a JSON:API, used by the react-admin app
+* [**API:**](https://github.com/valhuber/ApiLogicServer#api-safrs-jsonapi-and-swagger) a JSON:API, used by the react-admin app, via [ra-jsonapi-client](https://github.com/henvo/ra-jsonapi-client)
 * [**Logic:**](https://github.com/valhuber/ApiLogicServer#logic) declare transactional logic using spreadsheet-like rules (multi-table derivations and constraints)
   * 40x more concise than code, extensible with standard python - [explore it here](https://github.com/valhuber/ApiLogicServer/wiki/Tutorial#2-explore-transaction-logic)
 * [**UI:**](#multi-page-multi-table-application) multi-page, multi-table react-admin apps as shown below
