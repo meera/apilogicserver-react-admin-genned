@@ -90,7 +90,7 @@ API Logic Server react-admin creation services are not yet suitable for use.  Th
 
 ## Key Issue - Joins
 
-As shown on the [Order Show](#order-show) ("missing joins - product name), joins are not yet operaational.  Support appears to be available in 
+As shown on the [Order Show](#order-show) ("missing joins - product name"), joins are not yet operaational.  Support appears to be available in 
 the [react-admin enterprise edition](https://marmelab.com/ra-enterprise/modules/ra-relationships), but has not been tried.
 
 Is joins support required from ra-json-api-client?
