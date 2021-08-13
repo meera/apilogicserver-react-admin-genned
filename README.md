@@ -26,7 +26,7 @@ Sample pages are shown below.  The [generated project is here](#generated-projec
 
 # Multi-page, Multi-Table Application
 
-Observe the following screens
+Observe the following screens created from the [sample database](https://github.com/valhuber/ApiLogicServer/wiki/Sample-Database):
 
 ## Customer List
 
