@@ -34,6 +34,12 @@ So, in a few seconds, you can create working projects that would otherwise requi
 
 * **Business Agility:** this declarative approach provides remarkable competitive advantage in time to market, and responding to business change.
 
+This positions react-admin with strategic advantages over competitive frameworks:
+
+* backend, including logic
+
+* zero learning curve
+
 
 # Multi-page, Multi-Table Application
 
