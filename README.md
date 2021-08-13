@@ -38,7 +38,7 @@ This positions react-admin with strategic advantages over competitive frameworks
 
 * backend, including transaction logic
 
-> Backend transaction logic is signicant - often nearly _half_ the effort for such systems.  Reducing code by 40X can have a _dramatic_ effect on delivery and iteration.
+  > Backend transaction logic is signicant - often nearly _half_ the effort for such systems.  Reducing code by 40X can have a _dramatic_ effect on delivery and iteration.
 
 * zero learning curve
 
