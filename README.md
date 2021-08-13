@@ -9,12 +9,18 @@ You can run it locally as described below in [Installation](#Installation).
 
 # Background
 
-ApiLogicServer creates the ccomplete project below from your data model, including:
+API Logic Server introspects your database and creates customizable project from a single command:
+
+```
+ApiLogicServer run  # defaults to pre-installed sample database
+```
+
+ApiLogicServer creates the complete project below from your data model, including:
 * Models
 * [**API:**](https://github.com/valhuber/ApiLogicServer#api-safrs-jsonapi-and-swagger) a JSON:API, used by the react-admin app
 * [**Logic:**](https://github.com/valhuber/ApiLogicServer#logic) spreadsheet-like transactional logic
   * 40x more concise than code, extensible with standard python
-* UI
+* [**UI:**]() multi-page, multi-table react-admin apps as shown below
 
 Sample pages are shown below.  The [generated project is here](#generated-project).
 
