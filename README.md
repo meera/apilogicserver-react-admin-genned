@@ -56,7 +56,7 @@ List screens support _filtering_, _sorting_ and _pagination_.
 Note that fields are _intelligently ordered_ - name fields first, Id fields last, etc.
 
 Clicking a row opens ```Customer Show```, below.
-<figure><img src="https://github.com/valhuber/apilogicserver-react-admin-genned/raw/main/screen-shots/CustomerList.png"></figure>
+<figure><img src="https://github.com/meera/apilogicserver-react-admin-genned/raw/main/screen-shots/CustomerList.png"></figure>
 
 ## Customer Show
 
