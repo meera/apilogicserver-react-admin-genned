@@ -15,7 +15,7 @@ API Logic Server introspects your database and creates customizable project from
 ApiLogicServer run  # defaults to pre-installed sample database
 ```
 
-ApiLogicServer creates the complete project below from your data model, including:
+ApiLogicServer creates the [complete project below]((#generated-project)) from your data model, including:
 * **Models:** SQLAlchemy requires model classes; these are created automatically from the database
   * You can customize the model, e.g., [denormalizations](https://github.com/valhuber/LogicBank/wiki/Denormalization), [hybrid (virtual) attributes](https://github.com/valhuber/LogicBank/wiki/Denormalization), and [supply missing relationships](https://github.com/valhuber/LogicBank/wiki/Managing-Rules#relationships-db-or-virtual).
   
@@ -24,7 +24,6 @@ ApiLogicServer creates the complete project below from your data model, includin
   * 40x more concise than code, extensible with standard python
 * [**UI:**](#multi-page-multi-table-application) multi-page, multi-table react-admin apps as shown below
 
-The [generated project is here](#generated-project).
 
 # Multi-page, Multi-Table Application
 
