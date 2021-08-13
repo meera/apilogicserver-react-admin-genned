@@ -47,13 +47,24 @@ Observe the following screens created from the [sample database](https://github.
 
 ## Customer List
 
+List screens support _filtering_, _sorting_ and _pagination_.  
+
+Note that fields are _intelligently ordered_ - name fields first, Id fields last, etc.
+
+Clicking a row opens ```Customer Show```, below.
 <figure><img src="https://github.com/valhuber/apilogicserver-react-admin-genned/raw/main/screen-shots/CustomerList.png"></figure>
 
 ## Customer Show
 
+Show screens show all the attributes of an object, with a tab sheet showing a list of related Child rows.  
+
+Clicking a child row opens up _its_ show page, enabling you to walk the database relationships.
+
 <figure><img src="https://github.com/valhuber/apilogicserver-react-admin-genned/raw/main/screen-shots/CustomerShow.png"></figure>
 
 ## Order Show
+
+Observe the automatic joins, so you can see the Product Name instead of the Product Id (not currently working).
 
 <figure><img src="https://github.com/valhuber/apilogicserver-react-admin-genned/raw/main/screen-shots/OrderShow.png"></figure>
 
@@ -69,7 +80,13 @@ API Logic server backends are [customizable as described here](https://github.co
 
 Likewise, the created react-admin project preserves the [customize without ejecting](https://marmelab.com/blog/2021/07/22/cra-webpack-no-eject.html) approach of react-admin.
 
+# Status - technology exploration
 
+API Logic Server react-admin creation services are not yet suitable for use.  They are available to support technology exploration.
+
+## Key Issue - Joins
+
+As shown on the [Order Show](#order-show), joins are not yet operaational.  We are seeking collaboration on making this work, presumably using 
 
 # Installation
 
