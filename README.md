@@ -60,7 +60,7 @@ The UI components includes a react-admin folder:
 
 # Installation
 
-Before you install this react dashboard for APILogicServer, you need to have npm, node and yarn installed on your local machine. 
+Before you install this react app for APILogicServer, you need to have npm, node and yarn installed on your local machine. 
 
 Use this website to install npm, node and yarn - [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
 
@@ -80,5 +80,5 @@ Builds the app for production to the `build` folder.\
 
 ## How to Get Support
 
-Contact the developer meera.datey@gmail.com
+Contact the developers: meera.datey@gmail.com or valjhuber@gmail.com.
 
