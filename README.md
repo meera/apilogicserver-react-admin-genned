@@ -11,6 +11,8 @@ You can run it locally as described below in [Installation](#Installation).
 
 ## What: Working Software, *Now*
 
+<figure><img src="https://github.com/meera/apilogicserver-react-admin-genned/raw/main/screen-shots/overview.png"></figure>
+
 API Logic Server introspects your database, and creates an executable, customizable project from a single command:
 
 ```
