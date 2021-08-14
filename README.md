@@ -86,7 +86,7 @@ Likewise, the created react-admin project preserves the [customize without eject
 
 # Status - technology exploration
 
-API Logic Server react-admin creation services are not yet suitable for use.  They are available to support technology exploration.
+API Logic Server react-admin creation services are not yet suitable for use, nor provided in the ```pip``` version.  They are available to support technology exploration.
 
 ## Key Issue - Joins
 
