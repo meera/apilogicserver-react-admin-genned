@@ -19,15 +19,25 @@ API Logic Server introspects your database, and creates an executable, customiza
 ApiLogicServer run  # defaults to pre-installed sample database
 ```
 
-ApiLogicServer creates the [complete project below](#generated-project) from your data model, including:
-  
-1. [**API:**](https://github.com/valhuber/ApiLogicServer#api-safrs-jsonapi-and-swagger) a JSON:API from [SAFRS](https://github.com/thomaxxl/safrs#readme), used by the react-admin app, via [ra-jsonapi-client](https://github.com/henvo/ra-jsonapi-client)
-      * Models: SQLAlchemy requires model classes; these are created automatically from the database
-        * You can customize the model, e.g., [denormalizations](https://github.com/valhuber/LogicBank/wiki/Denormalization), [hybrid (virtual) attributes](https://github.com/valhuber/LogicBank/wiki/Denormalization#retrieval-object-model-virtual-attributes), and [supply missing relationships](https://github.com/valhuber/LogicBank/wiki/Managing-Rules#relationships-db-or-virtual).
-      * You can [customize the API](https://github.com/valhuber/ApiLogicServer/wiki/ApiLogicServer-Guide#customize-the-model-with-model_extpy-add-relationships-derived-attributes)
-2. [**Logic:**](https://github.com/valhuber/ApiLogicServer#logic) declare transactional logic using spreadsheet-like rules (multi-table derivations and constraints)
+ApiLogicServer creates the [complete project below](#generated-project) automatically from your data model, including:
+
+* **Backend**
+
+    * [**API:**](https://github.com/valhuber/ApiLogicServer#api-safrs-jsonapi-and-swagger) a JSON:API from [SAFRS](https://github.com/thomaxxl/safrs#readme), used by the react-admin app, via [ra-jsonapi-client](https://github.com/henvo/ra-jsonapi-client)
+       * Models: SQLAlchemy requires model classes; these are created automatically from the database
+          * You can customize the model, e.g., [denormalizations](https://github.com/valhuber/LogicBank/wiki/Denormalization), [hybrid (virtual) attributes](https://github.com/valhuber/LogicBank/wiki/Denormalization#retrieval-object-model-virtual-attributes), and [supply missing relationships](https://github.com/valhuber/LogicBank/wiki/Managing-Rules#relationships-db-or-virtual).
+
+       * You can [customize the API](https://github.com/valhuber/ApiLogicServer/wiki/ApiLogicServer-Guide#customize-the-model-with-model_extpy-add-relationships-derived-attributes)
+
+    * [**Logic:**](https://github.com/valhuber/ApiLogicServer#logic) declare transactional logic using spreadsheet-like rules (multi-table derivations and constraints)
       * 40x more concise than code, extensible with standard python - [explore it here](https://github.com/valhuber/ApiLogicServer/wiki/Tutorial#2-explore-transaction-logic)
-3. [**UI:**](#multi-page-multi-table-application) multi-page, multi-table react-admin app as shown below
+
+
+* **Frontend**
+
+   * [**React-Admin App:**](#multi-page-multi-table-application) multi-page, multi-table react-admin app as shown below
+
+
 
 ## Why: agile collaboration / iteration, business agility
 
@@ -35,15 +45,16 @@ So, in a few moments, you can create working projects that would otherwise requi
 
 * **Agile:** Working Sofware *Now* enables you to collaborate with business users over working screens, as a basis for iterations.  This is the basis of the [Agile Manifesto](https://agilemanifesto.org/).
 
+
 * **Business Agility:** this declarative approach provides remarkable competitive advantage in time to market, and responding to business change.
 
 This positions react-admin with strategic advantages over competitive frameworks:
 
-* **Backend automation,** with unique transaction logic
+* **Backend automation,** 40x more concise than code
 
-  > Backend transaction logic is signicant - often nearly _half_ the effort for such systems.  Reducing code by 40X can have a _dramatic_ effect on delivery and iteration.
+  > Backend transaction logic is significant - often nearly _half_ the effort for such systems.  Reducing code by 40X can have a _dramatic_ effect on delivery and iteration.
 
-* **Zero learning curve**
+* **Zero learning curve:** Working Software _Now_, Zero Learning Curve
 
   > A sophisticated multi-page, multi-table app (not Hello World!) is running in moments, with zero learning curve.  Customize the app, by editing working software.
 
