@@ -23,7 +23,7 @@ ApiLogicServer creates the [complete project below](#generated-project) automati
 
 * **Backend**
 
-    * [**API:**](https://github.com/valhuber/ApiLogicServer#api-safrs-jsonapi-and-swagger) a JSON:API from [SAFRS](https://github.com/thomaxxl/safrs#readme), used by the react-admin app, via [ra-jsonapi-client](https://github.com/henvo/ra-jsonapi-client)
+    * [**JSON:API:**](https://github.com/valhuber/ApiLogicServer#api-safrs-jsonapi-and-swagger) from [SAFRS](https://github.com/thomaxxl/safrs#readme), used by the react-admin app, via [ra-jsonapi-client](https://github.com/henvo/ra-jsonapi-client)
        * Models: SQLAlchemy requires model classes; these are created automatically from the database
           * You can customize the model, e.g., [denormalizations](https://github.com/valhuber/LogicBank/wiki/Denormalization), [hybrid (virtual) attributes](https://github.com/valhuber/LogicBank/wiki/Denormalization#retrieval-object-model-virtual-attributes), and [supply missing relationships](https://github.com/valhuber/LogicBank/wiki/Managing-Rules#relationships-db-or-virtual).
 
