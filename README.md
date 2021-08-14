@@ -28,9 +28,9 @@ ApiLogicServer creates the [complete project below](#generated-project) from you
 
 ## Why: agile collaboration / iteration, business agility
 
-So, in a few moments, you can create working projects that would otherwise require weeks or months, and then customize them.
+So, in a few moments, you can create working projects that would otherwise require weeks or months, and then customize them:
 
-* **Agile:** working sofware *now* enables you to collaborate with business users over working screens, as a basis for iterations.  This is the basis of the [Agile Manifesto](https://agilemanifesto.org/).
+* **Agile:** Working Sofware *Now* enables you to collaborate with business users over working screens, as a basis for iterations.  This is the basis of the [Agile Manifesto](https://agilemanifesto.org/).
 
 * **Business Agility:** this declarative approach provides remarkable competitive advantage in time to market, and responding to business change.
 
