@@ -24,7 +24,7 @@ ApiLogicServer creates the [complete project below](#generated-project) from you
 * [**API:**](https://github.com/valhuber/ApiLogicServer#api-safrs-jsonapi-and-swagger) a JSON:API from [SAFRS](https://github.com/thomaxxl/safrs#readme), used by the react-admin app, via [ra-jsonapi-client](https://github.com/henvo/ra-jsonapi-client)
 * [**Logic:**](https://github.com/valhuber/ApiLogicServer#logic) declare transactional logic using spreadsheet-like rules (multi-table derivations and constraints)
   * 40x more concise than code, extensible with standard python - [explore it here](https://github.com/valhuber/ApiLogicServer/wiki/Tutorial#2-explore-transaction-logic)
-* [**UI:**](#multi-page-multi-table-application) multi-page, multi-table react-admin apps as shown below
+* [**UI:**](#multi-page-multi-table-application) multi-page, multi-table react-admin app as shown below
 
 ## Why: agile collaboration / iteration, business agility
 
