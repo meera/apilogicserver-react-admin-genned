@@ -50,18 +50,18 @@ So, in a few moments, you can create working projects that would otherwise requi
 
 This positions react-admin with strategic advantages over competitive frameworks:
 
-* **Backend automation,** 40x more concise than code
+* **Backend automation,** unique spreadsheet-like logic - 40x more concise than code
 
   > Backend transaction logic is significant - often nearly _half_ the effort for such systems.  Reducing code by 40X can have a _dramatic_ effect on delivery and iteration.
 
-* **Zero learning curve:** Working Software _Now_, Zero Learning Curve
+* **Frontend automation:** Working Software _Now_, Zero Learning Curve
 
   > A sophisticated multi-page, multi-table app (not Hello World!) is running in moments, with zero learning curve.  Customize the app, by editing working software.
 
 
 # Multi-page, Multi-Table Application
 
-Observe the following screens created from the [sample database](https://github.com/valhuber/ApiLogicServer/wiki/Sample-Database), in the subsections below.
+Observe the screens in the subsections below, automatically created from the [sample database](https://github.com/valhuber/ApiLogicServer/wiki/Sample-Database).
 
 ## Customer List
 
