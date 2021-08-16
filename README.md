@@ -56,7 +56,7 @@ This positions react-admin with strategic advantages over competitive frameworks
   > A sophisticated multi-page, multi-table app (not Hello World!) is running in moments, with zero learning curve.  Customize the app, by editing working software.
 <figure><img src="https://github.com/meera/apilogicserver-react-admin-genned/raw/main/screen-shots/no-backend.png" width="350"></figure>
 
-* **Backend automation too,** unique spreadsheet-like logic - 40x more concise than code
+* **Backend automation too,** with unique spreadsheet-like logic - 40x more concise than code
 
   > Backend transaction logic is significant - often nearly _half_ the effort for such systems.  Reducing code by 40X can have a _dramatic_ effect on delivery and iteration.
 # Multi-page, Multi-Table Application
