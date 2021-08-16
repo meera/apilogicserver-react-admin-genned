@@ -29,8 +29,9 @@ ApiLogicServer creates the [complete project below](#generated-project) automati
 
        * You can [customize the API](https://github.com/valhuber/ApiLogicServer/wiki/ApiLogicServer-Guide#customize-the-model-with-model_extpy-add-relationships-derived-attributes)
 
-    * [**Logic:**](https://github.com/valhuber/ApiLogicServer#logic) declare transactional logic using spreadsheet-like rules (multi-table derivations and constraints)
-      * 40x more concise than code, extensible with standard python - [explore it here](https://github.com/valhuber/ApiLogicServer/wiki/Tutorial#2-explore-transaction-logic)
+    * [**Logic:**](https://github.com/valhuber/ApiLogicServer#logic) declare _multi-table_ transactional update logic using spreadsheet-like rules (multi-table derivations and constraints)
+      * 40x more concise than code - [explore here](https://github.com/valhuber/LogicBank/wiki/by-code)
+      * extensible with standard python - [explore it here](https://github.com/valhuber/ApiLogicServer/wiki/Tutorial#2-explore-transaction-logic)
 
 
 * **Frontend**
