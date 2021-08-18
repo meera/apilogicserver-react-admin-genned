@@ -1,6 +1,6 @@
 # ApiLogicServer - Automated React Admin Creation
 
-This is the source code for a [React Admin](https://marmelab.com/react-admin/) app, created automatically by [APILogicServer](https://github.com/valhuber/ApiLogicServer). 
+This is the source code for a [React Admin](https://marmelab.com/react-admin/) app, created automatically by [APILogicServer](https://github.com/valhuber/ApiLogicServer).  The app is a react/react-admin frontend, using a JSON:API backend via SAFRS, all automatically created by APILogicServer.
 
 [View live demo!](https://apilogicserver.askteam.how/) 
 (username is admin and password is p)
